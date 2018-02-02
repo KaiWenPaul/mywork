@@ -1,0 +1,225 @@
+{
+  "menus":[
+     {
+      "path":"/main",
+      "component":"Home",
+      "name":"主数据",
+      "iconCls":"el-icon-setting",
+      "leaf":false,
+      "menuShow": true,
+      "id":"1",
+      "children":[
+        {
+          "path":"main/material_manage",
+          "component":"MaterialManage",
+          "leaf":true,
+          "name":"物料管理",
+          "menuShow": true
+        },
+        {
+          "path":"main/supplier_manage",
+          "component":"SupplierManage",
+          "leaf":true,
+          "menuShow": true,
+          "name":"供应商管理"
+        },
+        {
+          "path":"main/customer_manage",
+          "component":"CustomerManage",
+          "leaf":true,
+          "menuShow": true,
+          "name":"客户管理"
+        }
+      ]
+    },
+     {
+      "path":"/sales",
+      "component":"Home",
+      "name":"销售模块",
+      "iconCls":"el-icon-setting",
+      "leaf":false,
+      "menuShow": true,
+      "children":[
+        {
+          "path":"sales/order_manage",
+          "component":"OrderManage",
+          "leaf":true,
+          "name":"订单管理",
+          "menuShow": true
+        }
+      ]
+    },
+     {
+      "path":"/purchase",
+      "component":"Home",
+      "name":"采购模块",
+      "iconCls":"el-icon-setting",
+      "leaf":false,
+      "menuShow": true,
+      "children":[
+        {
+          "path":"purchase/order_purchase",
+          "component":"OrderPurchase",
+          "leaf":true,
+          "name":"订单采购",
+          "menuShow": true
+        }
+      ]
+    },
+     {
+      "path":"/logisticGet",
+      "component":"Home",
+      "name":"物流收货",
+      "iconCls":"el-icon-setting",
+      "leaf":false,
+      "menuShow": true,
+      "children":[
+        {
+          "path":"logisticGet/goods_test",
+          "component":"GoodsTest",
+          "leaf":true,
+          "name":"货物验收",
+          "menuShow": true
+        },
+        {
+          "path":"logisticGet/purchase_storage",
+          "component":"PurchaseStorage",
+          "leaf":true,
+          "menuShow": true,
+          "name":"采购入库"
+        },
+         {
+          "path":"logisticGet/return_storage",
+          "component":"ReturnStorage",
+          "leaf":true,
+          "menuShow": true,
+          "name":"退货入库"
+        },
+         {
+          "path":"logisticGet/other_storage",
+          "component":"OtherStorage",
+          "leaf":true,
+          "menuShow": true,
+          "name":"其他入库"
+        }
+      ]
+    },
+     {
+      "path":"/logisticSend",
+      "component":"Home",
+      "name":"物流发货",
+      "iconCls":"el-icon-setting",
+      "leaf":false,
+      "menuShow": true,
+      "children":[
+        {
+          "path":"logisticSend/sales_out",
+          "component":"SalesOut",
+          "leaf":true,
+          "name":"销售出库",
+          "menuShow": true
+        },
+        {
+          "path":"logisticSend/return_factory",
+          "component":"ReturnFactory",
+          "leaf":true,
+          "menuShow": true,
+          "name":"退货返厂"
+        },
+        {
+          "path":"logisticSend/exchange_out",
+          "component":"ExchangeOut",
+          "leaf":true,
+          "menuShow": true,
+          "name":"换货出库"
+        },
+        {
+          "path":"logisticSend/other_out",
+          "component":"OtherOut",
+          "leaf":true,
+          "menuShow": true,
+          "name":"其他出库"
+        }
+      ]
+    },
+      {
+      "path":"/stock",
+      "component":"Home",
+      "name":"库存管理",
+      "iconCls":"el-icon-setting",
+      "leaf":false,
+      "menuShow": true,
+      "children":[
+        {
+          "path":"stock/stock_change",
+          "component":"StockChange",
+          "leaf":true,
+          "name":"库存变动",
+          "menuShow": true
+        },
+         {
+          "path":"stock/outof_storage",
+          "component":"OutofStorage",
+          "leaf":true,
+          "name":"出入库",
+          "menuShow": true
+        },
+         {
+          "path":"stock/stock_check",
+          "component":"StockCheck",
+          "leaf":true,
+          "name":"库存盘点",
+          "menuShow": true
+        },
+        {
+          "path":"stock/warehouse_manage",
+          "component":"WarehouseManage",
+          "leaf":true,
+          "menuShow": true,
+          "name":"仓库管理"
+        }
+      ]
+    },
+    {
+      "path":"/set",
+      "component":"Home",
+      "name":"设置",
+      "iconCls":"el-icon-setting",
+      "leaf":false,
+      "menuShow": true,
+      "children":[
+        {
+          "path":"/set_ee_e",
+          "component":"BookList",
+          "leaf":true,
+          "name":"个人信息",
+          "menuShow": true
+        },
+        {
+          "path":"ee",
+          "component":"BookList0",
+          "leaf":true,
+          "menuShow": true,
+          "name":"修改密码"
+        }
+      ]
+    },
+     {
+      "path":"/",
+      "component":"Home",
+      "name":"系统管理",
+      "iconCls":"el-icon-setting",
+      "leaf":false,
+      "menuShow": true,
+      "children":[
+        {
+          "path":"route_list",
+          "component":"RouteList",
+          "leaf":true,
+          "name":"模块管理",
+          "menuShow": true
+        }
+      ]
+    }
+  ]
+}

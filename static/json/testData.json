@@ -1,0 +1,19 @@
+{
+    "data": {
+        "id": "15",
+        "order_number": "535614920760213051",
+        "member_id": "291140002",
+        "picture": "http://assets.bianlidaojia.com.cn/users/upload/xiaopiao/17/04/13/760213190.png",
+        "shop_name": "河南烩面",
+        "shop_position": "河南省周口市太康县谢安路4545号",
+        "ticket_position": "深圳市南山区西丽镇留仙大道455号",
+        "create_time": "2017-04-13 17:33:41",
+        "pay_time": "0",
+        "order_status": "40",
+        "pay_money": "0.00",
+        "deposit_money": "0.00",
+        "reason": "网络PS2"
+    },
+    "statusCode": 0,
+    "msg": "恭喜您！操作成功"
+}

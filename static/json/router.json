@@ -1,0 +1,26 @@
+{
+"data": [  
+        {
+        "path": "/",
+        "name": "home",
+        "component": "Home",
+        "redirect": "/dashboard",
+        "leaf": true, 
+        "menuShow": true,
+        "children":[
+            {"path": "/dashboard", "component": "Dashboard", "name": "首页", "menuShow": true}
+        ]
+        },{
+        "path": "/",
+        "component":"Home" ,
+        "name": "图书管理",
+        "menuShow": true,
+        "children": [
+            {"path": "/book/list", "omponent": "BookList", "name": "图书列表", "menuShow": true},
+            {"path": "/book/category", "component": "BookCategoryList", "name": "图书分类", "menuShow": true}
+        ]
+        }
+    ],
+    "status":"ok",
+    "error": ""
+}
